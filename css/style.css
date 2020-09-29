@@ -381,12 +381,12 @@ header {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	max-width: 1000px; 
+	margin: 0 auto; 
 }
 
 .portfolio__item {
-	background: var(--clr-accent);
-	padding: 0.8em; 
 	overflow: hidden; 
+	margin: 0 auto;
 }
 
 .portfolio__img {
