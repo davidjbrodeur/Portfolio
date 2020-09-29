@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio Web de David Brodeur</title>
+		<link href="css/style.css" rel="stylesheet" />
+		
+		<!-- Icons and Others -->
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+		
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+		
+		
+	</head>
+	
+	<body>
+		<!-- Header -->	
+		<header>
+			<div class="logo">
+				<img src="img/david_logo.png" alt="">
+			</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Accueil</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">Mes services</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">À propos</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">Mes projets</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		
+		<!-- Introduction -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Je suis <strong>David Brodeur</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">développeur web et logiciel</p>
+			<img src="img/david.jpg" alt="photo de David" class="intro__img">
+		</section>
+		
+		
+		<!-- My Service -->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">Ce que je peux faire pour vous</h2>
+			<div class="services">
+				<div class="service">
+					<h3>Design et développement web</h3>
+					<p>Je peux faire des sites webs simples et personnalisés pour votre organisme ou votre entreprise à des <strong>prix concurrentiels</strong>. 
+					</p>
+				</div> <!-- / service -->
+				<div class="service">
+					<h3>Design et développement de logiciel</h3>
+					<p>Je peux conceptualiser, planifier et programmer des applications et logiciels desktops, web et android selon <strong>vos</strong> besoins. 
+					</p>
+				</div> <!-- / service -->
+				<div class="service">
+					<h3>Wordpress et Marketing Web</h3>
+					<p>Je peux créer un site web dont <strong>vous</strong> serez l'administrateur grâce à Wordpress ainsi que vous conseiller dans votre campagne de marketing web.</p>
+				</div> <!-- / service -->
+			</div> <!-- / services -->
+			<a href="#work" class="btn">Mes projets</a>
+		</section>
+		
+		
+		<!-- About Me -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Qui je suis</h2>
+			<p class="section__subtitle section__subtitle--about">Développeur basé à Rimouski (Canada)</p>
+			
+			<div class="about-me__body">
+				<p>Je suis un concepteur web et logiciel basé à Rimouski (Québec, Canada). Auparavant, j'ai étudié en pédagogie et en sciences humaines au niveau universitaire et je termine un doctorat en histoire à temps partiel. </p>
+				<p>J'ai complété un AEC en Programmation orientée objet et technologies Web au Collège Rosemont. De plus, je termine aussi un certificat en informatique appliquée avec la TELUQ. </p>
+				<p>J'ai une expérience de travaille variée en gestion dans la fonction publique et de nombreuses compétences en analyse grâces à mes études universitaires. Je cherche maintenant de nouveaux défis dans le monde de la programmation. </p>
+			</div>
+		</section>
+		
+		
+		<!-- Works -->
+		<section class="work" id="work">
+			<h2 class="section__title section__title--work">Mes projets</h2>
+			<p class="section__subtitle section__subtitle--work">Voici mes derniers projets logiciels et webs importants</p>
+			
+			<div class="portfolio">
+				<!-- Portfiolio item 01: Synergie BSL -->
+				<a href="portfolio-item-01.html" class="portfolio__item">
+					<img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+				</a>
+				
+				<!-- Portfiolio item 02: Mon portfolio web	-->
+				<a href="#portfolio-item-02.html" class="portfolio__item">
+					<img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+				</a>
+				
+				<!-- Portfiolio item 03 -->
+				<a href="#portfolio-item-03.html" class="portfolio__item">
+					<img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+				</a>
+				
+				<!-- Portfiolio item 04
+				<a href="#" class="portfiolio__item">
+					<img src="portfolio-01.jpg" alt="" class="portfiolio__img">
+				</a>
+				-->
+				
+				<!-- Portfiolio item 05
+				<a href="#" class="portfiolio__item">
+					<img src="portfolio-01.jpg" alt="" class="portfiolio__img">
+				</a>
+				-->
+				
+				<!-- Portfiolio item 06
+				<a href="#" class="portfiolio__item">
+					<img src="portfolio-01.jpg" alt="" class="portfiolio__img">
+				</a>
+				-->
+				
+			</div>
+		</section>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<a href="mailto:davidjbrodeur@gmail.com" class="footer-link">davidjbrodeur@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://www.linkedin.com/in/davidjbrodeur/">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://github.com/davidjbrodeur">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		
+		<script src="js/index.js"></script>
+		
+	</body>
+
+</html>
