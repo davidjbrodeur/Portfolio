@@ -269,7 +269,7 @@ header {
 		grid-template-columns: min-content max-content; 
 	}
 	
-	.intro_img {
+	.intro__img {
 		grid-area: img; 
 		min-width: 250px; 
 		position: relative;
@@ -471,7 +471,7 @@ header {
 /* Feature dev: caroussel */
 
 /* TODO: 
-- Fix intro
 - Caroussel
 - Hover image text project descript
+- Intro strong display block fonctionne pas. Mon nom devrait être sur une nouvelle ligne. 
 */
