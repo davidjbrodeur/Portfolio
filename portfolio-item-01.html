@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Portfolio Web de David Brodeur</title>
+		<title>David Brodeur | Développeur web et logiciel </title>
 		<link href="css/style.css" rel="stylesheet" />
 		
 		<!-- Icons and Others -->
@@ -40,21 +40,57 @@
 		<!-- Project Introduction -->
 		<section class="intro">
 			<h1 class="section__title section__title--intro">
-				Voici le site web de <strong>Synergie Bas-Saint-Laurent</strong>
+				Voici le site web de <a href="https://synergiebsl.qc.ca"><strong>Synergie Bas-Saint-Laurent</strong></a>
 			</h1>
 			<p class="section__subtitle section__subtitle--intro">Site web Wordpress avec conseil marketing</p>
-			<img src="img/portfolio-01.jpg" alt="photo du projet" class="intro_img">
+			<img src="img/portfolio-01.jpg" alt="photo du projet" class="intro__img">
 		</section>		
 		
+		<!-- Carousel div -->
+		<div class="carousel">
+		
+				<!-- Left button -->
+			<button class="carousel__button carousel__button--left">
+				<img src="img/left.svg" alt="">
+			</button>
+			
+				<!-- Carousel picture slide -->
+			<div class="carousel__track-container">
+				<ul class="carousel__track">
+					<li class="carousel__slide current-slide">
+						<a href="https://synergiebsl.qc.ca"> <img class="carousel__images" src="img/project1-slide1.jpg" alt=""></a>
+					</li>
+					<li class="carousel__slide">
+						<a href="https://synergiebsl.qc.ca"> <img class="carousel__images" src="img/project1-slide2.jpg" alt=""></a>
+					</li>
+					<li class="carousel__slide">
+						<a href="https://synergiebsl.qc.ca"> <img class="carousel__images" src="img/project1-slide3.jpg" alt=""></a>
+					</li>
+				</ul>
+			</div>
+			
+				<!-- Right button -->
+			<button class="carousel__button carousel__button--right">
+				<img src="img/right.svg" alt="">
+			</button>
+				
+				<!-- Carousel navigator -->
+			<div class="carousel__nav">
+				<button class="carousel__indicator current-slide"></button>
+				<button class="carousel__indicator"></button>
+				<button class="carousel__indicator"></button>
+			</div>
+		</div>	
+		
+		
 		<div class="portfolio-item-individual">
-			<p>J'ai construit le site web de l'organisme <strong>Synergie Bas-Saint-Laurent</strong> qui font la promotion de l'économie circulaire dans le Bas-Saint-Laurent.</p>
-			<img src="img/portfolio-01-details.jpg" alt="description">
+			<p>J'ai conceptualisé et construit le site web de l'organisme <strong>Synergie Bas-Saint-Laurent</strong> qui font la promotion de l'économie circulaire dans le Bas-Saint-Laurent.<p>
 			<p>Pour ce projet, j'ai aider à la réalisation du plan de marketing et de communication web avec la responsable chez Synergie Bas-Saint-Laurent. J'ai analysé les besoins du client et par la suite j'ai conceptualisé un site web que j'ai fait approuvé par le client. Par la suite, j'ai construit avec l'outils Wordpress le document en question.</p>
 			<p>Compétences acquises ou travaillées:</p>
 			<ul class="acquis">
-				<li>Analyse des besoins du client</li>
-				<li>Utilisation approfondie de l'outil Wordpress</li>
-				<li>Conceptualisation et design d'un site web</li>
+				<li><strong>Analyse des besoins du client</strong></li>
+				<li><strong>Utilisation approfondie de l'outil Wordpress</strong></li>
+				<li><strong>Conceptualisation et design d'un site web</strong></li>
 			</ul>
 		</div>
 		
@@ -74,10 +110,15 @@
 					</a>
 				</li>
 			</ul>
+			
+			</br>
+			<p style="font-size:0.3em">Icônes par <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> de <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> </p>
+			
+			
 		</footer>
-		
-		<script src="js/index.js"></script>
-		
+	
+	<script src="js/index.js"></script>
+	<script src="js/carousel.js"></script>
 	</body>
 
 </html>
